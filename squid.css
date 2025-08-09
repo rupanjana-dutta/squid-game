@@ -1,0 +1,93 @@
+body {
+  font-family: cursive;
+  background-color:black;
+}
+
+header{
+  background-color: black;
+}
+.logo{
+  height: 30%;
+  width:30%;
+  padding-left: 36%;
+}
+
+h4{
+  color:aliceblue;
+  padding-left: 32%;
+}
+
+h5{
+  color:aliceblue;
+  padding-left: 26%;
+}
+
+label{
+  color: whitesmoke;
+}
+
+/* form{
+  width:20%;
+} */
+.box{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  margin:auto;
+  padding-top: 1%;
+  padding-left: 3%;
+  width: 240px;
+  height: 180px;
+  border:2px solid rgb(0, 128, 98);
+  border-radius: 5%;
+  background-color: rgba(128, 128, 128, 0.21);
+}
+
+.last{
+  width:10%;
+  height:10%;
+  padding-left:45%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.box:hover{
+  box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.607);
+}
+
+button{
+  border: 1px solid rgb(255, 0, 115);
+  border-radius: 10%;
+  color:rgb(255, 0, 115);
+  background-color:rgba(128, 128, 128, 0.21) ;
+}
+
+button:hover{
+  box-shadow: 6px 4px rgba(17, 17, 17, 0.832);
+}
+
+h6{
+  color: white;
+  text-align: center;
+}
+
+footer{
+  background-color: rgba(31, 245, 174, 0.077);
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contact h6{
+  color: gray;
+  margin: auto;
+  font-size: 10px;
+}
+ul{
+  color:grey;
+  margin: auto;
+  font-size: 10px;
+  /* padding-left: 30%; */
+}
